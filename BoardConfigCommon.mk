@@ -134,6 +134,7 @@ include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += device/lge/g3-common/sepolicy
 
 BOARD_SEPOLICY_UNION += \
+    app.te \
     device.te \
     file.te \
     file_contexts \
@@ -153,6 +154,7 @@ BOARD_SEPOLICY_UNION += \
     property_contexts \
     radio.te \
     rmt_storage.te \
+    seapp_contexts \
     sensors.te \
     servicemanager.te \
     sysinit.te \
