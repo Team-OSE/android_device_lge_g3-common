@@ -135,6 +135,7 @@ BOARD_SEPOLICY_DIRS += device/lge/g3-common/sepolicy
 
 BOARD_SEPOLICY_UNION += \
     app.te \
+    camera.te \
     device.te \
     file.te \
     file_contexts \
