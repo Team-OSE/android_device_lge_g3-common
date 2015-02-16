@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2015 OSE Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -101,8 +101,11 @@ PRODUCT_PACKAGES += \
     memtrack.msm8974 \
     liboverlay
 
-# Filesystem
+# Filesystem management tools
 PRODUCT_PACKAGES += \
+    fsck.f2fs \
+    mkfs.f2fs \
+    setup_fs \
     e2fsck
 
 # GPS
@@ -200,10 +203,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     init.galbi.thermal_conf.sh
-
-# Torch
-PRODUCT_PACKAGES += \
-    Torch
 
 # USB
 PRODUCT_PACKAGES += \
