@@ -328,6 +328,7 @@
 
     <!-- Dream of notifications -->
     <bool name="config_dozeAfterScreenOff">true</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 
     <!-- Wether doze feature is enabled by default in settings. -->
