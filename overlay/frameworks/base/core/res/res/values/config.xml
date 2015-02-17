@@ -319,4 +319,6 @@
     <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="doze_display_state_supported">true</bool>
 
+    <bool name="config_proximityCheckOnWake">true</bool>
+    <integer name="config_proximityCheckTimeout">400</integer>
 </resources>
